@@ -8,7 +8,7 @@
 <meta content="Async wrapper in python for the spotify api" name="description"/>
 <link href="https://huiibuh.github.io/AsyncSpotify/" rel="canonical"/>
 <link href="https://upload.wikimedia.org/wikipedia/commons/9/9b/Font_Awesome_5_brands_spotify.svg" rel="shortcut icon"/>
-<meta content="mkdocs-1.1, mkdocs-material-5.5.5" name="generator"/>
+<meta content="mkdocs-1.1.2, mkdocs-material-5.5.5" name="generator"/>
 <title>Async Spotify</title>
 <link href="assets/stylesheets/main.63b94e9e.min.css" rel="stylesheet"/>
 <link href="assets/stylesheets/palette.7f672a1f.min.css" rel="stylesheet"/>
@@ -24,9 +24,6 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#asyncspotify">
-          Skip to content
-        </a>
 </div>
 <div data-md-component="announce">
 </div>
@@ -116,50 +113,9 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-        Overview
-        <span class="md-nav__icon md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"></path></svg>
-</span>
-</label>
 <a class="md-nav__link md-nav__link--active" href="." title="Overview">
       Overview
     </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
-</span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#documentation">
-    Documentation
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#why-should-you-use-this-library">
-    Why should you use this library
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#installation">
-    Installation
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#example">
-    Example
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#tests">
-    Tests
-  </a>
-</li>
-</ul>
-</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="EXAMPLES/" title="Examples">
@@ -348,108 +304,13 @@
 </div>
 </div>
 </div>
-<div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-<div class="md-sidebar__scrollwrap">
-<div class="md-sidebar__inner">
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
-</span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#documentation">
-    Documentation
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#why-should-you-use-this-library">
-    Why should you use this library
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#installation">
-    Installation
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#example">
-    Example
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#tests">
-    Tests
-  </a>
-</li>
-</ul>
-</nav>
-</div>
-</div>
-</div>
 <div class="md-content">
 <article class="md-content__inner md-typeset">
 <a class="md-content__button md-icon" href="https://github.com/HuiiBuh/AsyncSpotify/edit/master/docs/index.md" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
 </a>
-<h1 id="asyncspotify">AsyncSpotify<a class="headerlink" href="#asyncspotify" title="Permanent link">¶</a></h1>
-<p><img alt="Unit Tests" src="https://github.com/HuiiBuh/AsyncSpotify/workflows/Unit%20Tests/badge.svg"/>
-<a href="https://app.codacy.com/manual/nhaderer1/AsyncSpotify?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=HuiiBuh/AsyncSpotify&amp;utm_campaign=Badge_Grade_Dashboard"><img alt="Codacy Badge" src="https://api.codacy.com/project/badge/Grade/65dd7dbb2b4b4efcb3fc365f2d3f1684"/></a>
-<a href="https://codecov.io/gh/HuiiBuh/AsyncSpotify"><img alt="codecov" src="https://codecov.io/gh/HuiiBuh/AsyncSpotify/branch/master/graph/badge.svg?token=0oC3x1chKb"/></a></p>
-<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">¶</a></h2>
-<p>The full documentation can be viewed <a href="https://huiibuh.github.io/AsyncSpotify/">here</a>.</p>
-<h2 id="why-should-you-use-this-library">Why should you use this library<a class="headerlink" href="#why-should-you-use-this-library" title="Permanent link">¶</a></h2>
-<ul>
-<li>100% Code coverage</li>
-<li>Completely type annotated</li>
-<li>Completely async</li>
-<li>Scales up to (theoretically) unlimited requests per second (tested with 1000 simultaneous requests which lead to a 429)</li>
-<li>Customize the timeout, maximal simultaneous request</li>
-<li>Throws custom errors, so you can catch different errors easily<ul>
-<li>Token expiration</li>
-<li>Rate limit violation</li>
-<li>An invalid album id</li>
-</ul>
-</li>
-<li>Gets rid of the client credential workflow if you provide spotify cookies<ul>
-<li>Good for automated testing</li>
-</ul>
-</li>
-<li>Offers a hook which gets called if the token expires, so you can automatically update the token</li>
-</ul>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">¶</a></h2>
-<p>You need at least python3.6 to install the package</p>
-<div class="highlight"><pre><span></span><code>pip install async-spotify
-</code></pre></div>
-<h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">¶</a></h2>
-<p>For more in depth examples take a look <a href="https://huiibuh.github.io/AsyncSpotify/EXAMPLES/">here</a> or visit the documentation.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">async_spotify</span> <span class="kn">import</span> <span class="n">SpotifyApiClient</span>
-<span class="kn">from</span> <span class="nn">async_spotify.authentification</span> <span class="kn">import</span> <span class="n">SpotifyAuthorisationToken</span>
-<span class="kn">from</span> <span class="nn">async_spotify.authentification.authorization_flows</span> <span class="kn">import</span> <span class="n">AuthorizationCodeFlow</span>
-<span class="c1"># Create a auth_code_flow object and load the auth_code_flow from env variables</span>
-<span class="n">auth_flow</span> <span class="o">=</span> <span class="n">AuthorizationCodeFlow</span><span class="p">()</span>
-<span class="n">auth_flow</span><span class="o">.</span><span class="n">load_from_env</span><span class="p">()</span>
-
-<span class="c1"># Create a new Api client and pass the auth_code_flow</span>
-<span class="n">api</span> <span class="o">=</span> <span class="n">SpotifyApiClient</span><span class="p">(</span><span class="n">auth_flow</span><span class="p">,</span> <span class="n">hold_authentication</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-
-<span class="c1"># Get the auth token with your code</span>
-<span class="n">code</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">"Your Spotify Code"</span>
-<span class="n">auth_token</span><span class="p">:</span> <span class="n">SpotifyAuthorisationToken</span> <span class="o">=</span> <span class="k">await</span> <span class="n">api</span><span class="o">.</span><span class="n">get_auth_token_with_code</span><span class="p">(</span><span class="n">code</span><span class="p">)</span>
-
-<span class="c1"># Create a new client</span>
-<span class="k">await</span> <span class="n">api</span><span class="o">.</span><span class="n">create_new_client</span><span class="p">(</span><span class="n">request_limit</span><span class="o">=</span><span class="mi">1500</span><span class="p">)</span>
-
-<span class="c1"># Start making queries with the internally saved token</span>
-<span class="n">album_tracks</span><span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="k">await</span> <span class="n">api</span><span class="o">.</span><span class="n">albums</span><span class="o">.</span><span class="n">get_tracks</span><span class="p">(</span><span class="s1">'03dlqdFWY9gwJxGl3AREVy'</span><span class="p">)</span>
-
-<span class="c1"># If you pass a valid auth_token this auth_token will be used for making the requests</span>
-<span class="n">album_tracks</span><span class="p">:</span> <span class="nb">dict</span> <span class="o">=</span> <span class="k">await</span> <span class="n">api</span><span class="o">.</span><span class="n">albums</span><span class="o">.</span><span class="n">get_tracks</span><span class="p">(</span><span class="s1">'03dlqdFWY9gwJxGl3AREVy'</span><span class="p">,</span> <span class="n">auth_token</span><span class="p">)</span>
-</code></pre></div>
-<h2 id="tests">Tests<a class="headerlink" href="#tests" title="Permanent link">¶</a></h2>
-<p>See <a href="STUFF/">here</a>.</p>
+<h1>Overview</h1>
+<p>../README.md</p>
 <hr/>
 <div class="md-source-date">
 <small>

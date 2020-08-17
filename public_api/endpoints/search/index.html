@@ -8,7 +8,7 @@
 <meta content="Async wrapper in python for the spotify api" name="description"/>
 <link href="https://huiibuh.github.io/AsyncSpotify/public_api/endpoints/search/" rel="canonical"/>
 <link href="https://upload.wikimedia.org/wikipedia/commons/9/9b/Font_Awesome_5_brands_spotify.svg" rel="shortcut icon"/>
-<meta content="mkdocs-1.1, mkdocs-material-5.5.5" name="generator"/>
+<meta content="mkdocs-1.1.2, mkdocs-material-5.5.5" name="generator"/>
 <title>Search - Async Spotify</title>
 <link href="../../../assets/stylesheets/main.63b94e9e.min.css" rel="stylesheet"/>
 <link href="../../../assets/stylesheets/palette.7f672a1f.min.css" rel="stylesheet"/>
@@ -430,7 +430,11 @@ start<span class="p">(</span><span class="bp">self</span><span class="p">,</span
 <td><code>query_type</code></td>
 <td><code>List[str]</code></td>
 <td>
-<p>A comma-separated list of item types to search across. Valid types are: album , artist, playlist, track, show and episode. Search results include hits from all the specified item types. For example: q=name:abacab&amp;type=album,track returns both albums and tracks with “abacab” included in their name.</p>
+<p>A comma-separated list of item types to search across.
+Valid types are: album , artist, playlist, track, show and episode.
+Search results include hits from all the specified item types.
+For example: q=name:abacab&amp;type=album,track returns both albums and tracks with
+“abacab” included in their name.</p>
 </td>
 <td><em>required</em></td>
 </tr>
@@ -470,7 +474,7 @@ start<span class="p">(</span><span class="bp">self</span><span class="p">,</span
 </tbody>
 </table>
 <details class="quote">
-<summary>Source code in <code>async_spotify/api/_endpoints/search.py</code></summary>
+<summary>Source code in <code>async_spotify\api\_endpoints\search.py</code></summary>
 <table class="highlighttable">
 <tr>
 <td class="linenos">
